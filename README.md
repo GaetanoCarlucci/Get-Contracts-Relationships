@@ -12,7 +12,7 @@ Example:
 }
 ```
 
-then run the script using a *python*interpreter:
+then run the script using a **python3** interpreter:
 
 ```
 $python get_contract_relationship.py
