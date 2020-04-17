@@ -1,3 +1,11 @@
+#!/usr/bin/env python
+#
+#   Author: Gaetano Carlucci, Cisco CX
+#   Python Version: 3
+#
+#   This software is distributed on an "AS IS" BASIS,
+#   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either expressed or implied
+
 import requests
 from requests.packages.urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
