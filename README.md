@@ -45,7 +45,7 @@ then run the script using a *python3* interpreter:
 $python3 main.py
 ```
 
-it will create the xlsx file `Contract_Relationships.xlsx` that contains a global sheet with the summary report and details sheet for each resource that lists all of them:
+it will create the xlsx file `Contract_Relationship.xlsx` that contains a global sheet with the summary report and details sheet for each resource that lists all of them:
 
 
 <img src="excel.png" width="400" />
