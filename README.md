@@ -1,5 +1,32 @@
 # Get Contract Relationships
 
+
+"Tool description"
+
+## Getting Started
+
+### Prerequisites
+
+* Python 3 (create your venv)
+
+```
+ python3 -m venv venv
+```
+* Activate your venv
+
+```
+ source venv/bin/activate
+```
+
+### Installing
+1. Run pip command to install required libraries.
+
+```
+> pip install -r requirements.txt
+```
+
+## Usage
+
 Insert the login data in the file `Utils/credentials.json`:
 
 Example:
@@ -12,10 +39,18 @@ Example:
 }
 ```
 
-then run the script using a **python3** interpreter:
+then run the script using a *python3* interpreter:
 
 ```
-$python get_contract_relationship.py
+$python3 main.py
 ```
 
-it will create the xlsx file `Contract_Relationship.xlsx`.
+it will create the xlsx file `Vlans_per_Leaf.xlsx` that contains a global sheet with the summary report and details sheet for each resource that lists all of them:
+
+
+<img src="excel.png" width="400" />
+
+
+## Authors
+
+* **Gaetano Carlucci** 
