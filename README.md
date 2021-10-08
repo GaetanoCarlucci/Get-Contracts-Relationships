@@ -1,7 +1,7 @@
 # Get Contract Relationships
 
 
-"The tool collects the Contracts deployed in the ACI fabric and shows how their are used in an excel files.
+This tool collects the Contracts deployed in the ACI fabric and shows how their are used in an excel files.
 
 ## Getting Started
 
