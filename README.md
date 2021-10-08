@@ -1,7 +1,7 @@
 # Get Contract Relationships
 
 
-"Tool description"
+"The tool collects the Contracts deployed in the ACI fabric and shows how their are used in an excel files.
 
 ## Getting Started
 
@@ -45,7 +45,7 @@ then run the script using a *python3* interpreter:
 $python3 main.py
 ```
 
-it will create the xlsx file `Vlans_per_Leaf.xlsx` that contains a global sheet with the summary report and details sheet for each resource that lists all of them:
+it will create the xlsx file `Contract_Relationships.xlsx` that contains a global sheet with the summary report and details sheet for each resource that lists all of them:
 
 
 <img src="excel.png" width="400" />
